@@ -75,47 +75,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boat.cs" />
-    <Compile Include="ViewPier.cs">
+    <Compile Include="Classes\Boat.cs" />
+    <Compile Include="Forms\ViewPier.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewPier.Designer.cs">
+    <Compile Include="Forms\ViewPier.Designer.cs">
       <DependentUpon>ViewPier.cs</DependentUpon>
     </Compile>
-    <Compile Include="Owner.cs" />
-    <Compile Include="PierHelper.cs" />
-    <Compile Include="OwnerHelper.cs" />
-    <Compile Include="Pier.cs" />
-    <Compile Include="WelcomeForm.cs">
+    <Compile Include="Classes\Owner.cs" />
+    <Compile Include="Classes\PierHelper.cs" />
+    <Compile Include="Classes\OwnerHelper.cs" />
+    <Compile Include="Classes\Pier.cs" />
+    <Compile Include="Forms\WelcomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WelcomeForm.Designer.cs">
+    <Compile Include="Forms\WelcomeForm.Designer.cs">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewBoatForm.cs">
+    <Compile Include="Forms\NewBoatForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewBoatForm.Designer.cs">
+    <Compile Include="Forms\NewBoatForm.Designer.cs">
       <DependentUpon>NewBoatForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewOwnerForm.cs">
+    <Compile Include="Forms\NewOwnerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewOwnerForm.Designer.cs">
+    <Compile Include="Forms\NewOwnerForm.Designer.cs">
       <DependentUpon>NewOwnerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ViewPier.resx">
+    <EmbeddedResource Include="Forms\ViewPier.resx">
       <DependentUpon>ViewPier.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewOwnerForm.resx">
+    <EmbeddedResource Include="Forms\NewOwnerForm.resx">
       <DependentUpon>NewOwnerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WelcomeForm.resx">
+    <EmbeddedResource Include="Forms\WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewBoatForm.resx">
+    <EmbeddedResource Include="Forms\NewBoatForm.resx">
       <DependentUpon>NewBoatForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -127,6 +127,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="database backup\Marina.bak" />
     <None Include="KingsHillMarina_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
